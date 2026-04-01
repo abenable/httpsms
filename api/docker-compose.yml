@@ -1,0 +1,7 @@
+services:
+  httpsms-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8111:8000"
