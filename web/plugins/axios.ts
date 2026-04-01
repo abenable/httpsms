@@ -1,7 +1,27 @@
 import axios from 'axios'
 
+type NuxtWindow = Window & {
+  __NUXT__?: {
+    config?: {
+      apiBaseUrl?: string
+    }
+  }
+}
+
+function resolveBaseURL() {
+  if (typeof window !== 'undefined') {
+    return (
+      (window as NuxtWindow).__NUXT__?.config?.apiBaseUrl ||
+      process.env.API_BASE_URL ||
+      'http://localhost:8000'
+    )
+  }
+
+  return process.env.API_BASE_URL || 'http://localhost:8000'
+}
+
 const client = axios.create({
-  baseURL: process.env.API_BASE_URL || 'http://localhost:8000',
+  baseURL: resolveBaseURL(),
   headers: {
     'X-Client-Version': process.env.GITHUB_SHA || 'dev',
   },

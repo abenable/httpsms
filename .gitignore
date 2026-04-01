@@ -1,9 +1,12 @@
 .idea
+node_modules/
 .env*
 !.env.docker
+!.env.example
 !.env.production
 *serviceAccountKey.json
 android/app/debug/
 *main.exe*
 android/app/release/
 http-sms-1738-firebase-adminsdk-fbsvc-f850d8a9e8.json
+.codex
