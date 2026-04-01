@@ -10,7 +10,7 @@
       httpSMS is an
       <a
         class="text-decoration-none"
-        href="https://github.com/NdoleStudio/httpsms"
+        href="https://github.com/abenable/httpsms"
         >open source</a
       >
       application that converts your android phone into an SMS gateway so you

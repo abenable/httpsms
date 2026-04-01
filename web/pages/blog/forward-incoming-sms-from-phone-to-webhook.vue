@@ -59,7 +59,7 @@
           <a
             target="_blank"
             class="text-decoration-none"
-            href="https://github.com/NdoleStudio/httpsms/releases/latest/download/HttpSms.apk"
+            href="https://github.com/abenable/httpsms/releases/latest/download/HttpSms.apk"
             >httpSMS</a
           >
           android app on your phone and sign in using your API KEY which you
@@ -70,8 +70,8 @@
           <a
             target="_blank"
             class="text-decoration-none text-break"
-            href="https://github.com/NdoleStudio/httpsms/releases/latest/download/HttpSms.apk"
-            >https://github.com/NdoleStudio/httpsms/releases/latest/download/HttpSms.apk</a
+            href="https://github.com/abenable/httpsms/releases/latest/download/HttpSms.apk"
+            >https://github.com/abenable/httpsms/releases/latest/download/HttpSms.apk</a
           >
         </p>
         <v-img

@@ -271,7 +271,7 @@
               >
                 <img
                   alt="GitHub Repo stars"
-                  src="https://img.shields.io/github/stars/NdoleStudio/httpsms?style=social"
+                  src="https://img.shields.io/github/stars/abenable/httpsms?style=social"
                 />
               </a>
             </div>

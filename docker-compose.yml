@@ -30,7 +30,7 @@ services:
     build:
       context: ./api
     ports:
-      - "8000:8000"
+      - "8111:8000"
     depends_on:
       postgres:
         condition: service_healthy
@@ -43,7 +43,7 @@ services:
     build:
       context: ./web
     ports:
-      - "3000:3000"
+      - "3111:3000"
     depends_on:
       api:
         condition: service_started

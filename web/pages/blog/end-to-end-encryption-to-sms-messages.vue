@@ -41,7 +41,7 @@
           <a
             target="_blank"
             class="text-decoration-none"
-            href="https://github.com/NdoleStudio/httpsms/releases/latest/download/HttpSms.apk"
+            href="https://github.com/abenable/httpsms/releases/latest/download/HttpSms.apk"
             >⬇️ Download and install</a
           >
           the httpSMS Android app on your phone and set you encryption key under

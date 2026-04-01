@@ -1,10 +1,10 @@
 # httpSMS
 
-[![Build](https://github.com/NdoleStudio/httpsms/actions/workflows/ci.yml/badge.svg)](https://github.com/NdoleStudio/httpsms/actions/workflows/ci.yml)
-[![GitHub contributors](https://img.shields.io/github/contributors/NdoleStudio/httpsms)](https://github.com/NdoleStudio/httpsms/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/NdoleStudio/httpsms?color=brightgreen)](https://github.com/NdoleStudio/httpsms/blob/master/LICENSE)
+[![Build](https://github.com/abenable/httpsms/actions/workflows/ci.yml/badge.svg)](https://github.com/abenable/httpsms/actions/workflows/ci.yml)
+[![GitHub contributors](https://img.shields.io/github/contributors/abenable/httpsms)](https://github.com/abenable/httpsms/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/abenable/httpsms?color=brightgreen)](https://github.com/abenable/httpsms/blob/master/LICENSE)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/NdoleStudio/httpsms/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/NdoleStudio/httpsms/?branch=main)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/abenable/httpsms/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/abenable/httpsms/?branch=main)
 [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/ldl5.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 [![Sponsors](https://img.shields.io/github/sponsors/ndolestudio?logo=github)](https://github.com/sponsors/ndolestudio)
 [![Discord](https://img.shields.io/discord/1095778291488653372?label=Discord)](https://discord.gg/kGk8HVqeEZ)
@@ -75,10 +75,10 @@ client.Messages.Send(context.Background(), &httpsms.MessageSendParams{
 
 ## Android App
 
-[The Android App](https://apk.httpsms.com/HttpSms.apk) is a native application built using Kotlin with material design principles.
+[The Android App](https://github.com/abenable/httpsms/releases/latest/download/HttpSms.apk) is a native application built using Kotlin with material design principles.
 This app must be installed on an Android phone before you can start sending and receiving SMS messages.
 
-[<img src=".github/ghbadge.png" alt="Get it on GitHub" height="80">](https://github.com/NdoleStudio/httpsms/releases/)
+[<img src=".github/ghbadge.png" alt="Get it on GitHub" height="80">](https://github.com/abenable/httpsms/releases/)
 
 ## Chat/forum
 
@@ -86,7 +86,7 @@ There are a few ways to get in touch with me and/or the rest of the community. F
 works best for you:
 
 - [Discord server](https://discord.gg/kGk8HVqeEZ) - direct chat with the community
-- [GitHub issues](https://github.com/NdoleStudio/httpsms/issues) - questions, features, bugs
+- [GitHub issues](https://github.com/abenable/httpsms/issues) - questions, features, bugs
 
 ## Features
 
@@ -169,7 +169,7 @@ You can use a service like [mailtrap](https://mailtrap.io/) to create an SMTP se
 Clone the httpSMS GitHub repository
 
 ```bash
-git clone https://github.com/NdoleStudio/httpsms.git
+git clone git@github.com:abenable/httpsms.git
 ```
 
 ### 4. Setup the environment variables
